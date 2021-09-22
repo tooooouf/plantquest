@@ -10,7 +10,9 @@
       <div class="questList">
         <div class="questCard" v-for="(quest, key) in quests" :key="key">
           <router-link class="questLink" to="/quest"/>
-          <img class="questImg" v-bind:src="quest.plantImage" alt="">
+          <div class="imgWrap">
+            <img class="questImg" v-bind:src="quest.plantImage" alt="">
+          </div>
           <div class="questDesctiption">
             <h3 class="plantName">{{quest.plantName}}</h3>
             <p>{{quest.plantSummery}}</p>
@@ -24,7 +26,7 @@
   <section class="">
     <div class="box">
       <h2>季節の植物</h2>
-      <img src="" alt="">
+      <img src="@/assets/img/IMG_20210618_160314.jpg" alt="">
       <h3>紫陽花</h3>
       <p>アジサイ科アジサイ属の落葉低木。</p>
       <p>6月から7月にかけて開花する。日本原産で原種はガクアジサイ。よく見る花が球形のものは改良されたホンアジサイである。アジサイには毒性があるので取り扱いには気をつける必要がある。アジサイは生えている土のpHによって花の色を変える。pHが酸性なら青、アルカリ性なら赤になる。花の色が良く変わることから「七変化」や「八仙花」とも呼ばれる。</p>
@@ -40,7 +42,7 @@ export default {
       quests: [
         {
           plantName: 'パンジー',
-          plantImage: null,
+          plantImage: require('@/assets/img/DSCF0676.jpg'),
           plantSummery: 'スミレ科スミレ属の園芸植物',
           questSummery: 'パンジーを発見し、撮影しよう。',
           questReward: '××マート　50円引クーポン',
@@ -48,7 +50,7 @@ export default {
         },
         {
           plantName: 'イチョウ',
-          plantImage: null,
+          plantImage: require('@/assets/img/DSCF0807.jpg'),
           plantSummery: '',
           questSummery: 'イチョウを発見し、撮影しよう。',
           questReward: '△△ショップ　20円引クーポン',
@@ -56,7 +58,7 @@ export default {
         },
         {
           plantName: 'ネムノキ',
-          plantImage: null,
+          plantImage: require('@/assets/img/DSCF0950.jpg'),
           plantSummery: 'マメ科ネムノキ亜科の落葉高木',
           questSummery: 'ネムノキを発見し、撮影しよう。',
           questReward: '○○レストラン　10%引クーポン',
@@ -67,6 +69,13 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+header{
+  display: block;
+  text-align: start;
+}
+</style>
 
 <style>
 
@@ -106,6 +115,7 @@ section:nth-child(2){
   align-items: center;
   box-sizing: border-box;
   width: 100%;
+  height: 150px;
   border-bottom: rgb(146, 146, 146) solid 2px;
   padding: 10px 0 10px 0;
 }
@@ -119,13 +129,19 @@ section:nth-child(2){
 }
 
 .questDesctiption{
+  width: 65%;
   margin-left: 5px;
 }
 
-.questImg{
+.imgWrap{
+  border-radius: 10px;
   width: 100px;
   height: 100px;
+  overflow: hidden;
 }
 
+.questImg{
+  height: 100%;
+}
 
 </style>

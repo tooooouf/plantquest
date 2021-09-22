@@ -4,35 +4,36 @@
     <div class="box">
       <h2>パンジー</h2>
       <p>スミレ科スミレ属の園芸植物</p>
-      <img src="" alt="">
+      <img src="@/assets/img/DSCF0676.jpg" alt="">
       <p>パンジーを発見し、撮影しよう。</p>
       <p>報酬：××マート 50円引きクーポン</p>
       <p>レア度：★★☆☆☆</p>
-      <div class="button">
-        <router-link to="/submit">
-          <p>引き受ける</p>
-        </router-link> 
-      </div>
+      <Button linkText="引き受ける" link="submit"/>
     </div>
   </section>
 </template>
 
 <script>
 import Header from '@/components/header.vue'
+import Button from '@/components/button.vue'
 
 export default {
   name: 'quest',
   components: {
-    Header
+    Header,
+    Button
   }
 }
 </script>
 
-<style>
+<style scoped>
 
-.button{
-  border-radius: 50px;
-  height: 50px;
+.box{
+  align-items: center;
+}
+
+img{
+  width: 100%;
 }
 
 </style>
