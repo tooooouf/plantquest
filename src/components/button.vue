@@ -37,5 +37,6 @@ export default {
 
 .button p{
   color: rgb(233, 233, 233);
+  font-size: 17px;
 }
 </style>

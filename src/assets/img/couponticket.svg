@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="188" height="109" viewBox="0 0 188 109">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="2" height="108.5" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_8" data-name="グループ 8" transform="translate(-101 -238)">
+    <g id="長方形_6" data-name="長方形 6" transform="translate(101 238)" fill="#a1ce63" stroke="#c6c6c6" stroke-width="5">
+      <rect width="188" height="109" stroke="none"/>
+      <rect x="2.5" y="2.5" width="183" height="104" fill="none"/>
+    </g>
+    <g id="リピートグリッド_1" data-name="リピートグリッド 1" transform="translate(233 238.5)" clip-path="url(#clip-path)">
+      <g transform="translate(-233 -238.5)">
+        <line id="線_5" data-name="線 5" y2="8" transform="translate(233.5 238.5)" fill="none" stroke="#707070" stroke-width="10"/>
+      </g>
+      <g transform="translate(-233 -226.5)">
+        <line id="線_5-2" data-name="線 5" y2="8" transform="translate(233.5 238.5)" fill="none" stroke="#707070" stroke-width="10"/>
+      </g>
+      <g transform="translate(-233 -214.5)">
+        <line id="線_5-3" data-name="線 5" y2="8" transform="translate(233.5 238.5)" fill="none" stroke="#707070" stroke-width="10"/>
+      </g>
+      <g transform="translate(-233 -202.5)">
+        <line id="線_5-4" data-name="線 5" y2="8" transform="translate(233.5 238.5)" fill="none" stroke="#707070" stroke-width="10"/>
+      </g>
+      <g transform="translate(-233 -190.5)">
+        <line id="線_5-5" data-name="線 5" y2="8" transform="translate(233.5 238.5)" fill="none" stroke="#707070" stroke-width="10"/>
+      </g>
+      <g transform="translate(-233 -178.5)">
+        <line id="線_5-6" data-name="線 5" y2="8" transform="translate(233.5 238.5)" fill="none" stroke="#707070" stroke-width="10"/>
+      </g>
+      <g transform="translate(-233 -166.5)">
+        <line id="線_5-7" data-name="線 5" y2="8" transform="translate(233.5 238.5)" fill="none" stroke="#707070" stroke-width="10"/>
+      </g>
+      <g transform="translate(-233 -154.5)">
+        <line id="線_5-8" data-name="線 5" y2="8" transform="translate(233.5 238.5)" fill="none" stroke="#707070" stroke-width="10"/>
+      </g>
+      <g transform="translate(-233 -142.5)">
+        <line id="線_5-9" data-name="線 5" y2="8" transform="translate(233.5 238.5)" fill="none" stroke="#707070" stroke-width="10"/>
+      </g>
+      <g transform="translate(-233 -130.5)">
+        <line id="線_5-10" data-name="線 5" y2="8" transform="translate(233.5 238.5)" fill="none" stroke="#707070" stroke-width="10"/>
+      </g>
+    </g>
+    <text id="_" data-name="%" transform="translate(164 312)" fill="#707070" font-size="50" font-family="Roboto-Regular, Roboto" letter-spacing="0.033em"><tspan x="-18.311" y="0">%</tspan></text>
+  </g>
+</svg>

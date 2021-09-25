@@ -1,12 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Index from '../views/index.vue'
-import Quest from '../views/quest.vue'
-import Submit from '../views/submit.vue'
-import Getcoupon from '../views/getcoupon.vue'
-import Result from '../views/result.vue'
-import Collection from '../views/collection.vue'
-import Collection_detail from '../views/collection_detail.vue'
-import Coupons from '../views/coupons.vue'
+import Index from '@/views/index.vue'
+import Quest from '@/views/quest.vue'
+import Submit from '@/views/submit.vue'
+import Getcoupon from '@/views/getcoupon.vue'
+import Result from '@/views/result.vue'
+import Collection from '@/views/collection.vue'
+import Collection_detail from '@/views/collection_detail.vue'
+import Coupons from '@/views/coupons.vue'
+import Profile from '@/views/profile.vue'
 
 const routes = [{
         path: '/',
@@ -47,6 +48,11 @@ const routes = [{
         path: '/coupons',
         name: 'coupons',
         component: Coupons
+    },
+    {
+        path: '/profile',
+        name: 'profile',
+        component: Profile
     }
 ]
 

@@ -35,8 +35,10 @@
 </template>
 
 <script>
+
 export default {
   name: 'index',
+
   data(){
     return{
       quests: [
@@ -80,12 +82,7 @@ header{
 <style>
 
 section{
-  margin-top: 30px;
   padding: 0 3% 0 3%;
-}
-
-section:nth-child(2){
-  margin-top: 90px;
 }
 
 .box{
@@ -93,6 +90,7 @@ section:nth-child(2){
   flex-direction: column;
   justify-content: center;
   border-radius: 10px;
+  margin-bottom: 20px;
   padding: 10px;
   box-sizing: border-box;
   width: 100%;

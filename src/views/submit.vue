@@ -2,7 +2,7 @@
   <Header headerText="写真を提出"/>
   <section>
     <div class="box">
-      <p>選択された画像</p>
+      <h2>選択された画像</h2>
       <img src="@/assets/img/DSCF0675.jpg" alt="">
       <Button linkText="ファイルを選択" link="getcoupon"/>
       <Button linkText="カメラを起動" link="getcoupon"/>

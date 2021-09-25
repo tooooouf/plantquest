@@ -21,7 +21,7 @@ export default {
   name: 'quest',
   components: {
     Header,
-    Button
+    Button,
   }
 }
 </script>
