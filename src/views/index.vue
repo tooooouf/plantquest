@@ -114,7 +114,7 @@ section{
   box-sizing: border-box;
   width: 100%;
   height: 150px;
-  border-bottom: rgb(146, 146, 146) solid 2px;
+  border-bottom: rgb(146, 146, 146) solid 1px;
   padding: 10px 0 10px 0;
 }
 
