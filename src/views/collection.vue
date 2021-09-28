@@ -47,6 +47,14 @@ export default {
           questReward: null,
           questRarity: '★☆☆☆☆',
         },
+        {
+          plantName: 'アジサイ(紫陽花)',
+          plantImage: require('@/assets/img/IMG_20210618_160314.jpg'),
+          plantSummery: 'アジサイ科アジサイ属の落葉低木。',
+          questSummery: 'アジサイを発見し、撮影しよう。',
+          questReward: null,
+          questRarity: '★★☆☆☆',
+        },
       ]
     }
   },

@@ -23,11 +23,11 @@
       </div>
     </div>
   </section>
-  <section class="">
+  <section class="season">
     <div class="box">
       <h2>季節の植物</h2>
-      <img src="@/assets/img/IMG_20210618_160314.jpg" alt="">
-      <h3>紫陽花</h3>
+      <img src="@/assets/img/IMG_20210618_160314.jpg" alt="" class="seasonPhoto">
+      <h3>アジサイ(紫陽花)</h3>
       <p>アジサイ科アジサイ属の落葉低木。</p>
       <p>6月から7月にかけて開花する。日本原産で原種はガクアジサイ。よく見る花が球形のものは改良されたホンアジサイである。アジサイには毒性があるので取り扱いには気をつける必要がある。アジサイは生えている土のpHによって花の色を変える。pHが酸性なら青、アルカリ性なら赤になる。花の色が良く変わることから「七変化」や「八仙花」とも呼ばれる。</p>
     </div>
@@ -53,7 +53,7 @@ export default {
         {
           plantName: 'イチョウ',
           plantImage: require('@/assets/img/DSCF0807.jpg'),
-          plantSummery: '',
+          plantSummery: 'イチョウ科イチョウ属の落葉高木',
           questSummery: 'イチョウを発見し、撮影しよう。',
           questReward: '△△ショップ　20円引クーポン',
           questRarity: '★☆☆☆☆',
@@ -140,6 +140,10 @@ section{
 
 .questImg{
   height: 100%;
+}
+
+.seasonPhoto{
+  width: 100%;
 }
 
 </style>

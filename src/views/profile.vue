@@ -24,7 +24,7 @@
           <div class="topicIcon">
             <img src="@/assets/img/support.svg" alt="">
           </div>
-          <p>フレンド</p>
+          <p>サポート</p>
         </div>
       </div>
     </div>
