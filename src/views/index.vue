@@ -4,6 +4,15 @@
       <h2 class="headerText">Plant Quest</h2>
     </div>
   </header>
+  <section class="season">
+    <div class="box">
+      <img src="@/assets/img/IMG_20211020_123747.jpg" alt="" class="seasonPhoto">
+      <h2>季節の植物</h2>
+      <h3>ヒャクニチソウ (百日草, ジニア)</h3>
+      <p>キク科ヒャクニチソウ属の植物。</p>
+      <p>メキシコ高原原産で強い日航と高温多湿を好む。花の色もさまざま。夏から秋にかけて長いこと花が咲くことからその名がついた。また、浦島草とも呼ばれる。</p>
+    </div>
+  </section>
   <section class="quest">
     <div class="box">
       <h2>今日のクーポンクエスト</h2>
@@ -21,15 +30,6 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="season">
-    <div class="box">
-      <h2>季節の植物</h2>
-      <img src="@/assets/img/IMG_20210618_160314.jpg" alt="" class="seasonPhoto">
-      <h3>アジサイ(紫陽花)</h3>
-      <p>アジサイ科アジサイ属の落葉低木。</p>
-      <p>6月から7月にかけて開花する。日本原産で原種はガクアジサイ。よく見る花が球形のものは改良されたホンアジサイである。アジサイには毒性があるので取り扱いには気をつける必要がある。アジサイは生えている土のpHによって花の色を変える。pHが酸性なら青、アルカリ性なら赤になる。花の色が良く変わることから「七変化」や「八仙花」とも呼ばれる。</p>
     </div>
   </section>
 </template>
