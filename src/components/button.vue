@@ -1,6 +1,6 @@
 <template>
   <div class="button">
-    <router-link :to="`${'/' + link}`">
+    <router-link :to="`${'/' + link}`" v-if="link">
     </router-link> 
     <p>{{linkText}}</p>
   </div>
@@ -15,7 +15,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .button{
   position: relative;
   display: flex;

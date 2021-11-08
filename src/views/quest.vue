@@ -8,7 +8,7 @@
       <p>パンジーを発見し、撮影しよう。</p>
       <p>報酬：××マート 50円引きクーポン</p>
       <p>レア度：★★☆☆☆</p>
-      <Button linkText="引き受ける" link="submit"/>
+      <Button linkText="引き受ける" link="submit" @click="clearUrl"/>
     </div>
   </section>
 </template>
@@ -22,6 +22,11 @@ export default {
   components: {
     Header,
     Button,
+  },
+  methods:{
+    clearUrl(){
+      this.$store.state.url = ''
+    }
   }
 }
 </script>
