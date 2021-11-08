@@ -27,7 +27,7 @@
         </div>
         <div class="modalBody" key="failure" v-else>
           <h3>これはパンジーではありません。</h3>
-          <Button class="buttonCenter" linkText="別の画像で挑戦" link="quest" @click="closeModal"/>
+          <Button class="buttonCenter" linkText="もう一度挑戦" link="quest" @click="closeModal"/>
         </div>
       </transition>
     </div>
